@@ -1,0 +1,28 @@
+.btn-control {
+   width: 55px;
+   height: 55px;
+   background-color: #F3741C;
+   border: none;
+
+   &__left {
+      border-right: 1.1px solid #F59B65;
+   }
+
+   & i {
+         border: 2px solid #FFFFFF;
+         border-width: 0 2px 2px 0;
+         display: inline-block;
+         padding: 5px;
+      }
+   
+      &__prev {
+         opacity: 0.7;
+         transform: rotate(135deg);
+         -webkit-transform: rotate(135deg);
+      }
+
+      &__next {
+         transform: rotate(-45deg);
+         -webkit-transform: rotate(-45deg);
+      }
+}

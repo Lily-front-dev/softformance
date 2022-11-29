@@ -1,0 +1,33 @@
+/* Import variables */
+@import "variables";
+/* Import fonts */
+@import "fonts";
+/* Import all of Bootstrap's CSS
+@import "../../node_modules/bootstrap/scss/bootstrap";*/
+@import "../../node_modules/bootstrap/scss/functions"; // Required
+@import "../../node_modules/bootstrap/scss/variables"; // Required
+@import "../../node_modules/bootstrap/scss/mixins"; // Required
+@import "../../node_modules/bootstrap/scss/root"; // Required
+@import "../../node_modules/bootstrap/scss/reboot"; // Required
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/transitions"; // Required for nav burger
+@import "../../node_modules/bootstrap/scss/media";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar"; // Requires nav
+@import "../../node_modules/bootstrap/scss/_utilities";
+
+/* Import block styles */
+@import "blocks/logo";
+@import "blocks/testimonials";
+
+/* Import mixins styles */
+@import "mixins/section-name";
+@import "mixins/section-title";
+@import "mixins/section-info";
+@import "mixins/btn";
+@import "mixins/btn-control";
+
+
+
+
